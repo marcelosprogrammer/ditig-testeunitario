@@ -47,6 +47,4 @@ public class FuncionarioDaoImpl implements FuncionarioDAO {
 		return lista;
 	}
 
-	
-	
 }

@@ -8,8 +8,7 @@ public class Principal {
 
 		FuncionarioServices funcionarioServices = new FuncionarioServices();
 		
-		//Preenchimento do Objeto Funcionario
-		
+		//Preenchimento do Objeto Funcionario	
 		Funcionario funcionario= new Funcionario();
 		funcionario.setId(1);
 		funcionario.setFuncao("Desenvolvedor");
@@ -33,7 +32,5 @@ public class Principal {
 		for (Funcionario unidadeFuncionario : funcionarioServices.listar()) {
 			System.out.println(unidadeFuncionario.toString());
 		}
-		
 	}
-
 }
